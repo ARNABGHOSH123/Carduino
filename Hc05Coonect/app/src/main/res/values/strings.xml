@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Carduino</string>
+    <string name="app_description">(SMART APP FOR ARDUINO SUPPORTED CARS)</string>
+    <string name="motion_stop">STOP</string>
+    <string name="motion_start">START</string>
+    <string name="ASCII_Commands">ASCII Commands</string>
+    <string name="change_sett">Change ASCII commands</string>
+    <string name="help">Help and instructions</string>
+    <string name="forward">*Forward : \t\t</string>
+    <string name="backward">*Backward : \t\t</string>
+    <string name="right">*Right : \t\t</string>
+    <string name="left">*Left : \t\t</string>
+    <string name="stop">*Stop : \t\t</string>
+    <string name="name">*Bot name: \t\t</string>
+    <string name="bot_name">Name of the bot(Default: "Bruno")</string>
+    <string name="hint_forward">*ASCII to move forward</string>
+    <string name="hint_backward">*ASCII to move backward</string>
+    <string name="hint_right">*ASCII to move right</string>
+    <string name="hint_left">*ASCII to move left</string>
+    <string name="hint_stop">*ASCII to stop</string>
+    <string name="msg">*Fields are mandatory and cannot be empty\n(ASCII commands must be of single character)</string>
+    <string name="proceed">Proceed to operate</string>
+    <string name="error">**Command must be of single character</string>
+    <string name="voice_settings">Voice settings</string>
+    <string name="control_via_cloud">Control via cloud</string>
+    <string name="default_voice">View defaults</string>
+    <string name="voice_forward">String for forward movement</string>
+    <string name="voice_backward">String for backward movement</string>
+    <string name="voice_left">String for moving left</string>
+    <string name="voice_right">String for moving right</string>
+    <string name="voice_stop">String for stop</string>
+    <string name="voice_note">*All fields are mandatory\n**NOTE: Download the language in your device before proceeding.\nEx-If commands are given in English then English language must be avialable to be recognised by the app.</string>
+    <string name="move_to_voice_mode">Save and proceed</string>
+    <string name="field_empty">*Field cannot be empty</string>
+    <string name="default_label">Default voice settings</string>
+    <string name="default_voice_values">"** Say 'Forward'  for forward movement\n** Say 'Backward'  for backward movement\n**Say 'Right' to move right\n**Say 'Left' to move left\n**Say 'Stop' to stop the bot\n\n"</string>
+    <string name="provide_voice">Tap the mic to provide commands</string>
+    <string name="note_essence">**NOTE: Be careful at your voice essence during providing commands.</string>
+    <string name="instructions_to_user">This app has two running modes(currently):\n\n  1) Manual mode- It has a remote control (Up arrow - move forward, Down arrow - move backward, Right arrow - move right, Left arrow - move left)\n\nIt has a button to start or stop the bot. To bring the bot to ready mode , first press the start button then move to the arrows for respective movements. When u need to stop the bot press the stop button (formerly "start" button)
+                        \n.\n2)Voice command mode - It has a voice listener mic and the commands can be provided by tapping on the mic. You can provide name to your bot for your local essence.\n\nRemember: Be very careful about your voice essence  during providing commands. For this reason your recorded voice is also shown in the app in order to check your voice essence.
+                        \nThe language that you are going to use must be available(offline or online) in your device for proper language recognition.
+For ex- If you want to use language of Netherlands then its respective language must be available in your "Languages and input"\n\nConnect your bluetooth module first by the app then provide the ASCII commands (case sensitive(present in your arduino code)) for respective activities(ASCII commands can be modified in respective modes(see the menus in various modes)), then operate the bot.\n\nNote: In case the app fails to control the bot, you can control it via cloud of which options are given in the app. (Press the cloud button)\nAll the best</string>
+
+    <string name="got_it">"Ready to proceed"</string>
+    <string name="Paired_devices">Paired devices</string>
+    <string name="Other_available_devices">Other available devices</string>
+    <string name="Scan_for_devices">Scan for devices</string>
+    <string name="action_progress">action</string>
+    <string name="discovery_status">Discovering new devices....</string>
+    <string name="connection_status">Connecting to device......</string>
+    <string name="prepare_manual">Preparing manual mode......</string>
+    <string name="prepare_voice">Preparing voice command mode..</string>
+    <string name="placeholder">Cloud connectivity</string>
+    <string name="sensing_instructions">Tap below to start/stop the bot</string>
+
+</resources>

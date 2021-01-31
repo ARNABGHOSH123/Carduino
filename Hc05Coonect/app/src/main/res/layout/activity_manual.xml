@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Press 'START' button to start and 'STOP' to stop the bot"
+            style="@style/TextAppearance.Design.Error"
+            android:textAppearance="@android:style/TextAppearance.Large"/>
+
+        <ImageView
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="110dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+
+            android:clickable="true"
+            android:src="@drawable/up_arrow" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="58dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+
+                android:clickable="true"
+                android:src="@drawable/left_arrow" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+                <Button
+                    android:id="@+id/motion"
+                    style="@style/Button_Frame"
+                    android:text="@string/motion_start" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="58dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+
+                android:clickable="true"
+                android:src="@drawable/right_arrow" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+
+            android:clickable="true"
+            android:src="@drawable/down_arrow" />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="30dp">
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

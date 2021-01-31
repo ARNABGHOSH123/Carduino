@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.hc05coonect.ASCII_For_Manual">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                android:text="@string/forward"
+                style="@style/Settings_Style"/>
+            <TextView
+                android:id="@+id/show_forward"
+                style="@style/Show_ASCII_Command"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="18dp">
+            <TextView
+                android:text="@string/backward"
+                style="@style/Settings_Style"/>
+            <TextView
+                android:id="@+id/show_backward"
+                style="@style/Show_ASCII_Command" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight = "1"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                android:text="@string/right"
+                style="@style/Settings_Style"/>
+
+            <TextView
+                android:id="@+id/show_right"
+                style="@style/Show_ASCII_Command" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight = "1"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                android:text="@string/left"
+                style="@style/Settings_Style"/>
+
+            <TextView
+                android:id="@+id/show_left"
+                style="@style/Show_ASCII_Command" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight = "1"
+            android:layout_marginTop="18dp">
+
+            <TextView
+                android:text="@string/stop"
+                style="@style/Settings_Style"/>
+
+            <TextView
+                android:id="@+id/show_stop"
+                style="@style/Show_ASCII_Command" />
+        </LinearLayout>
+
+
+
+
+        <FrameLayout
+            style="@style/Button_Frame"
+            android:layout_marginTop="120dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/change_settings"
+                android:text="@string/change_sett"
+                android:padding="12dp"
+                style="@style/Change_settings_Style">
+            </Button>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

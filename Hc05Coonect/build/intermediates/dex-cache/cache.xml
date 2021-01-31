@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Hc05Coonect\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="15e21e319802a95bba3a6e9f24095de0bd93e7b9">
+        <dex dex="E:\Hc05Coonect\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_557add6593372af3c01ff5c85724fd5f58b2682c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Hc05Coonect\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\Hc05Coonect\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9ee95e31f4e288b364b7eabb78a46d5db1a47bf5\classes.dex" />
+    </item>
+
+</items>

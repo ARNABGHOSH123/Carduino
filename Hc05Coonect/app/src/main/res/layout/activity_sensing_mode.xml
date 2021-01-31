@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hc05coonect.SensingModeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sensing_instructions"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <FrameLayout style="@style/Button_Frame">
+
+            <Button
+                android:id="@+id/button_start_stop"
+                style="@style/Change_settings_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="100dp"
+                android:text="@string/motion_start" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

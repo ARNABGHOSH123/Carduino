@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.hc05coonect.HelpActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:fontFamily="serif"
+            android:textColor="@android:color/black"
+            android:text="@string/instructions_to_user"/>
+
+        <FrameLayout style="@style/Button_Frame">
+
+            <Button
+                android:id="@+id/ready"
+                style="@style/Change_settings_Style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="@string/got_it" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

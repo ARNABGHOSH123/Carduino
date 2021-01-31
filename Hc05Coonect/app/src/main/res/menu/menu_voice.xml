@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".VoiceActivity">
+
+    <item
+        android:id="@+id/action_default"
+        android:title="@string/default_voice"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_control"
+        android:title="@string/ASCII_Commands"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/voice_settings"
+        android:title="@string/voice_settings"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.hc05coonect">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/carduinologo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StartUpActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Carduino">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ManualActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Manual mode"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".SendActivity"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".VoiceActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Voice mode"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".VoiceActivity"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ASCII_For_Manual"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/ASCII_Commands"
+            android:parentActivityName=".ManualActivity">
+            <meta-data
+                android:name=".ASCII_For_Manual"
+                android:value=".SendActivity" />
+        </activity>
+        <activity
+            android:name=".ASCII_For_Voice"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/ASCII_Commands"
+            android:parentActivityName=".VoiceActivity">
+            <meta-data
+                android:name=".ASCII_For_Voice"
+                android:value=".VoiceActivity" />
+        </activity>
+        <activity
+            android:name=".VoiceControlActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Customise Voice Settings"
+            android:parentActivityName=".VoiceActivity">
+            <meta-data
+                android:name=".VoiceControlActivity"
+                android:value=".VoiceActivity" />
+        </activity>
+        <activity
+            android:name=".DefaultVoiceControlActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/default_label"
+            android:parentActivityName=".VoiceActivity">
+            <meta-data
+                android:name=".DefaultVoiceControlActivity"
+                android:value=".VoiceActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".BluetoothModuleActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".HelpActivity"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name=".HelpActivity"
+                android:value=".BluetoothModuleActivity" />
+        </activity>
+        <activity
+            android:name=".SensingModeActivity"
+            android:label="Sensing Mode"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name=".VoiceActivity"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
